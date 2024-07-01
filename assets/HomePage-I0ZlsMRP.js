@@ -1,4 +1,4 @@
-import{p as e,j as t}from"./index-blIYtA84.js";const n=e.div`
+import{p as e,j as t}from"./index-BDyaI9mu.js";const n=e.div`
   max-width: 1200px;
   height: 400px;
   display: flex;
