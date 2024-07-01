@@ -12,14 +12,24 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "file-saver": "^2.0.5",
+    "papaparse": "^5.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.0",
+    "react-paginate": "^8.2.0",
+    "react-query": "^3.39.3",
     "react-router-dom": "^6.24.0",
+    "sql.js": "^1.10.3",
     "styled-components": "^6.1.11"
   },
   "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/papaparse": "^5.3.14",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/sql.js": "^1.4.9",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react-swc": "^3.5.0",

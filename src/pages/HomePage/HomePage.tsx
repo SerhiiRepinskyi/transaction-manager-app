@@ -5,7 +5,7 @@ const HomePage: FC = () => {
   return (
     <section>
       <Container>
-        <h2>==HomePage==</h2>
+        <h2>Transaction Manager App</h2>
       </Container>
     </section>
   );

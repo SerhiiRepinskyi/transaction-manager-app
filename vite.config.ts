@@ -5,4 +5,11 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   base: "/transaction-manager-app",
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: "assets/[name].[ext]",
+      },
+    },
+  },
 });
